@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-In this project i set out with the aim of setting up a home lab using Elastic SIEM and a Kali Linux VM. The data gathered was forwarded from the Kali VM to the SIEM using the Elastic Beats agent, I then generated security events on the Kali VM by using Nmap and Ping commands, and queried and analyzed the logs in the SIEM using the Elastic web interface. I also created a dashboard to visualize security events and then created an alert to detect security events which would email me if a specified alert was triggered.
+In this project I set out with the aim of setting up a home lab using Elastic SIEM and a Kali Linux VM. The data gathered was forwarded from the Kali VM to the SIEM using the Elastic Beats agent, I then generated security events on the Kali VM by using Nmap and Ping commands, and queried and analyzed the logs in the SIEM using the Elastic web interface. I also created a dashboard to visualize security events and then created an alert to detect security events which would email me if a specified alert was triggered.
 
 <h2>Languages and Utilities Used</h2>
 
