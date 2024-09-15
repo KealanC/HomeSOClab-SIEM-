@@ -29,11 +29,11 @@ Run a variety of nmap scans in the Kali terminal to generate security alerts on 
 <img width="869" alt="Screenshot 2024-09-06 at 19 00 37" src="https://github.com/user-attachments/assets/85c65404-68d1-44a4-a320-31207f1994e3">
 <br />
 <br />
-Now I went back to the SIEM log data to analyze if it had detected any Nmap scans being executed, as you can see it did detect scans: <br/>
+Return to the SIEM log data to analyze if it had detected any Nmap scans being executed, as you can see it did detect scans: <br/>
 <img width="1291" alt="Screenshot 2024-09-07 at 13 29 07" src="https://github.com/user-attachments/assets/ab56e0c8-4345-4686-9828-8292643ae9b2">
 <br />
 <br />
-Next I created a visialization dashboard to visualize the detected events:  <br/>
+Create a visialization dashboard to visualize the detected events:  <br/>
 <img width="1429" alt="Screenshot 2024-09-06 at 19 19 32" src="https://github.com/user-attachments/assets/071c911a-5148-4888-b8b4-690616f9303a">
 <br />
 <br />
@@ -46,7 +46,7 @@ I once again began to run various nmap commands in the Kali OS to see if the SIE
 <img width="1429" alt="Screenshot 2024-09-07 at 11 34 13" src="https://github.com/user-attachments/assets/41696c31-2ccf-4ef7-8e79-4b640d002b71">
 <br />
 <br />
-Finally I decided to create another alert which was set up to detect when the ping command was being executed on the host. This alert also worked as you can see the security dashboard presenting the 200 nmap alerts and 2 ping alerts below:  <br/>
+Finally, create another alert which was set up to detect when the ping command was being executed on the host. This alert also worked as evident by the security dashboard presenting the 200 nmap alerts and 2 ping alerts below:  <br/>
 <img width="1429" alt="Screenshot 2024-09-07 at 11 41 20" src="https://github.com/user-attachments/assets/bf5a2bf2-c0d2-4652-be9f-22d00b388885">
 
 </p>
